@@ -1,0 +1,25 @@
+button{
+    
+    padding: 1em;
+    border-radius: 1em;
+    /* color: white; */
+    cursor: pointer;
+    /* width: 100%; */
+
+}
+button:hover{
+    background-color: grey;
+    color: white;
+}
+
+button.darkmode, .darkmode button{
+    background-color: black;
+    border: 1px solid yellow;
+    color: white;
+}
+
+button.lightmode, .lightmode button{
+    background-color: #ccc;
+    border: 1px solid black;
+    color: black;
+}
